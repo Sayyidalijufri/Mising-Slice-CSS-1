@@ -1,11 +1,30 @@
  body div {
       background-color: #E35163;
-      margin: 0 auto;
+      margin: 0 auto; 
     }
-div {
+div:nth-child(1) {
   width: 100px;
   height: 100px;
   border-top-right-radius: 100px;
   background: #F7F3D7;
-  transform: rotate(90);
+  transform: rotate(180deg);
+  margin:50% auto;
+}
+div:nth-child(2) {
+  width: 100px;
+  height: 100px;
+  border-top-right-radius: 100px;
+  background: #51B589;
+  transform: rotate(90deg);
+  margin:50% auto;
+  margin-left:100px;
+}
+div:nth-child(3) {
+  width: 100px;
+  height: 100px;
+  border-top-right-radius: 100px;
+  background: #51B589;
+  transform: rotate(90deg);
+  margin:50% auto;
+  margin-left:100px;
 }
